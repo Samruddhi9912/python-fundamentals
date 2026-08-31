@@ -1,3 +1,17 @@
+'''
+Problem Statement:
+Take a username from the user.
+
+Your program must check:
+
+Length must be between 5 and 15
+First character must be a letter
+It must contain at least one number
+It must not contain spaces
+It must not contain special characters
+
+'''
+
 username = input("Enter a username: ")
 
 if (len(username) < 5) :
